@@ -16,8 +16,9 @@
                 <div class="pr-5"><strong>317</strong> Seguidores</div>
                 <div class="pr-5"><strong>258</strong> Seguidos</div>
             </div>
-            <div class="pt-4"><strong>Twitter.com/sxnicyouth</strong></div>
-            <div>Ingeniería UNLP</div>
+            <div class="pt-4 font-weight-bold">{{$user->profile->title}}</div>
+            <div class="pt-4"><strong>{{$user->profile->url}}</strong></div>
+            <div>{{$user->profile->description}}</div>
             
         </div>
 
